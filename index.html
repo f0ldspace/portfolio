@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-title">Portfolio</div>
+        <div class="social-links">
+            <a href="https://twitter.com/f0ldspace" target="_blank" class="social-link">Twitter</a>
+            <a href="https://f0ld.space" target="_blank" class="social-link">Website</a>
+            <a href="https://github.com/f0ldspace" target="_blank" class="social-link">GitHub</a>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <div class="portfolio-content" id="portfolio">
+            <div class="timeline-container">
+                <svg class="timeline" id="timeline-svg"></svg>
+            </div>
+            <div class="projects-list" id="portfolio-projects"></div>
+        </div>
+
+    </main>
+
+    <div class="project-modal" id="project-modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="markdown.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
